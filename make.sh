@@ -4,4 +4,4 @@ if [[ -z "$LD_LIBRARY_PATH" ]]; then
     exit 1
 fi
 echo "LD_LIBRARY_PATH at $LD_LIBRARY_PATH"
-swift build -Xswiftc -I -Xswiftc $LD_LIBRARY_PATH -Xswiftc -L -Xswiftc $LD_LIBRARY_PATH -Xswiftc -lIgis --verbose
+swift build -Xswiftc -I -Xswiftc $LD_LIBRARY_PATH -Xswiftc -L -Xswiftc $LD_LIBRARY_PATH -Xswiftc -lIgis
